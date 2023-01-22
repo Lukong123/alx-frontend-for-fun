@@ -5,7 +5,7 @@ import sys
 
 n = len(sys.argv)
 
-if n < 2:
+if n < 3:
     sys.stderr.write("Usage: ./markdown2html.py README.md README.html")
     exit(1)
 if(FileExistsError):
