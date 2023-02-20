@@ -18,5 +18,14 @@ if __name__ == '__main__':
     if not os.path.isfile(sys.argv[1]):
         print("Missing {}".format(sys.argv[1]), file=sys.stderr)
         exit(1)
-    else:
-        exit(0)
+    
+    with open(sys.argv[1], 'r') as markdown:
+        c = markdown.readlines()
+
+        for line in c:
+            c = c.replace('#', '<h1>')
+            
+    f2 = open(sys.argv[2], 'w')
+    for line in f1:
+        f2.write(line)
+

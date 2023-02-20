@@ -1,0 +1,38 @@
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 2em;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.icon{
+    background-image: url("0-sprite.png");
+    height: 400px;
+    width:300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+li span.i-html{
+    background-position: left center;
+}
+
+li span.i-css{
+    background-position: center;
+}
+
+li span.i-js{
+    background-position: right center;
+}
