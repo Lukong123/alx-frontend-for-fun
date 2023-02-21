@@ -1,0 +1,7 @@
+// for
+
+@for $j from 1 through 5{
+    h#{$j} {
+        font-size: $i + px;
+    }
+}
