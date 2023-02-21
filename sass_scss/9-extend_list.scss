@@ -1,0 +1,20 @@
+// extending in scss
+
+%font_size{
+font-size: 12px;
+
+}
+
+.info{
+    @extend %font_size;
+}
+
+.success{
+    @extend %font_size;
+    color: #00FF00;
+}
+
+.warning{
+    @extend %font_size;
+    color: #FF0000;
+}
