@@ -1,5 +1,7 @@
 // list sort
 
-@import "103-sort_list.scss"
+@import "103-sort_list.scss";
 
-@debug $list_to_sort
+@each $name in $list_to_sort{
+    @debug #{$name};
+}
