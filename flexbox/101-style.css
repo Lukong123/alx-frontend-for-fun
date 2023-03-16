@@ -1,0 +1,55 @@
+.box1 {
+    border: 1 px solid mediumspringgreen;
+    background-color: mediumaquamarine;
+    width: 4rem;
+    height: 2rem;
+    color: white;
+}
+
+.box2 {
+    border: 1 px solid dodgerblue;
+    background-color: dodgerblue;
+    width: 6rem;
+    height: 4rem;
+    color: white;
+    font-size: 1.5em;
+}
+
+.box3 {
+    border: 1 px solid arapawa;
+    background-color: darkslateblue;
+    width: 8rem;
+    height: 6rem;
+    color: white;
+    font-size: 2.5em;
+}
+
+.box4 {
+    border: 1 px solid purple;
+    background-color: purple;
+    width: 6rem;
+    height: 4rem;
+    color: white;
+    font-size: 1.5em;
+}
+
+.box5 {
+    border: 1 px solid orange;
+    background-color: orange;
+    width: 4rem;
+    height: 2rem;
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
